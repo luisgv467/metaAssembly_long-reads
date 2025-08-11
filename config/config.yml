@@ -1,0 +1,29 @@
+# Required arguments
+
+#File with basename of input files
+input:
+    "/data/pam/lg21g/scratch/Programs/snakemake/MetaAssembly_long-reads/metagenome_paths.txt"
+
+#Path of clean fastqs
+input_path:
+    "/data/pam/lg21g/scratch/chapters/chapter_1/Resp_microbiome_db/clean_long_reads/"
+
+#Path where to store intermediate assembly files
+assembly:
+    "/data/pam/lg21g/scratch/chapters/chapter_1/Resp_microbiome_db/Assembly-long/Intermediate-files/"
+
+#Path where to store the final contigs
+contigs:
+    "/data/pam/lg21g/scratch/chapters/chapter_1/Resp_microbiome_db/Assembly-long/Contigs-long/"
+
+#Path where to store the indexes
+index:
+    "/data/pam/lg21g/scratch/chapters/chapter_1/Resp_microbiome_db/Assembly-long/Index/"
+
+#Path where to store the alignments
+alignment:
+    "/data/pam/lg21g/scratch/chapters/chapter_1/Resp_microbiome_db/Assembly-long/Alingments/"
+
+#Path where to store polished assemblies
+polished:
+    "/data/pam/lg21g/scratch/chapters/chapter_1/Resp_microbiome_db/Assembly-long/Polished/"

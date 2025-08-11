@@ -1,0 +1,36 @@
+__default__:
+    queue: "normal"
+    project: "snakemake_test"
+    mem: 5
+    nCPU: 1
+
+metaflye:
+  queue: "normal"
+  project: "metaflye"
+  mem: 1
+  nCPU: 1
+
+contigs:
+  queue: "normal"
+  project: "contigs"
+  mem: 1
+  nCPU: 1
+
+index:
+  queue: "normal"
+  project: "index"
+  mem: 10
+  nCPU: 1
+
+align:
+  queue: "normal"
+  project: "align"
+  mem: 30
+  nCPU: 24
+
+polish:
+  queue: "normal"
+  project: "polish"
+  mem: 200
+  nCPU: 32
+
